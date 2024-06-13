@@ -1,0 +1,33 @@
+@media (max-width: 55em) {
+  .grid--4-cols {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 8rem;
+  }
+  .container {
+    max-width: 60rem;
+    padding: 0;
+  }
+
+  .card {
+    height: 50rem;
+  }
+}
+
+@media (max-width: 39em) {
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+  .container {
+    max-width: 35rem;
+    padding: 0;
+  }
+
+  .card {
+    height: 50rem;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+}
