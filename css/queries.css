@@ -1,10 +1,10 @@
-@media (max-width: 55em) {
+@media (max-width: 71em) {
   .grid--4-cols {
     grid-template-columns: 1fr 1fr;
     row-gap: 8rem;
   }
   .container {
-    max-width: 60rem;
+    max-width: 70rem;
     padding: 0;
   }
 
@@ -13,18 +13,29 @@
   }
 }
 
-@media (max-width: 39em) {
+@media (max-width: 44em) {
+  .grid--4-cols {
+    grid-template-columns: 1fr 1fr;
+    gap: 4.8rem;
+  }
+  .container {
+    max-width: 50rem;
+    padding: 0;
+  }
+
+  .card:hover {
+    transform: none;
+  }
+}
+
+@media (max-width: 32em) {
   .grid--4-cols {
     grid-template-columns: 1fr;
     gap: 4.8rem;
   }
   .container {
-    max-width: 35rem;
+    max-width: 30rem;
     padding: 0;
-  }
-
-  .card {
-    height: 50rem;
   }
 
   .card:hover {
